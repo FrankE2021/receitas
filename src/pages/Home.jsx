@@ -16,7 +16,7 @@ const Home = () => (
     {/* ==============================Main Content=========================================== */}
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter} flex-grow`}>
       <div className={`${styles.boxWidth}`}>
-        <h1 className="border p-2 rounded-[10px] mb-5 flex justify-center items-center font-poppins text-[25px] font-extrabold text-gradient">INFORMAÇÃO:</h1>
+        <h1 className="border p-2 rounded-[10px] mb-5 flex justify-center items-center font-poppins text-[25px] font-extrabold text-gradient">SALVAR INFORMAÇÕES:</h1>
         <AddReceita />
       </div>
     </div>

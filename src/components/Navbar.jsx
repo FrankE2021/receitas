@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex justify-between items-center navbar">
       {/* ============== Logo ====================== */}
-      <NavLink to="/">
+      <NavLink to="/home">
         <img
           src={logo}
           alt="eurekae"
@@ -50,7 +50,7 @@ const Navbar = () => {
       <div
         className={`${
           !toggle ? "hidden" : "flex"
-        } p-5 bg-gold-gradient absolute top-20 right-0 mx-3 my-8 min-w-[140px] rounded-xl sidebar `}
+        } p-5 bg-gold-gradient absolute top-20 right-0 mx-3 min-w-[140px] rounded-xl sidebar `}
       >
         <ul className="list-none flex justify-end items-start flex-1 flex-col ">
           {navLinks.map((nav) => (
